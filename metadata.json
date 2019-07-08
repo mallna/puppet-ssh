@@ -1,0 +1,48 @@
+{
+  "name": "malina-ssh",
+  "version": "0.1.0",
+  "author": "malina",
+  "summary": "malina ssh test module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/mallna/puppet-ssh",
+  "project_page": "https://github.com/mallna/puppet-ssh",
+  "issues_url": "https://github.com/mallna/puppet-ssh/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.10.0 < 7.0.0"
+    }
+  ],
+  "pdk-version": "1.11.1",
+  "template-url": "pdk-default#1.11.1",
+  "template-ref": "1.11.1-0-g2ff8c24"
+}
